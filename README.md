@@ -32,3 +32,65 @@ The **Employee Management System** is a web application built using **Spring Boo
     "salary": 50000,
     "age": 30
   }
+
+### 2. **Get All Employees**
+- **URL**:` /emp/employees`
+-**Method**:` GET`
+-**Response Body**:
+````json
+  {
+    "id": 1,
+    "name": "John Doe",
+    "password": 12345,
+    "salary": 50000,
+    "age": 30
+  },
+  {
+    "id": 2,
+    "name": "Jane Smith",
+    "password": 67890,
+    "salary": 60000,
+    "age": 25
+  }
+}
+
+### 3. **Get Employee By ID**
+- **URL**: `/emp/employee/{id}`
+- **Method**: `GET`
+- **Request Parameter**: `id` (The ID of the employee you want to retrieve)
+- **Response Body**: 
+  ```json
+  {
+    "id": 1,
+    "name": "John Doe",
+    "password": 12345,
+    "salary": 50000,
+    "age": 30
+  }
+
+### 4. **Update Employee**
+- **URL**: `/emp/updateEmp`
+- **Method**: `PUT`
+- **Request Body**:
+  ```json
+  {
+    "id": 1,
+    "name": "John Doe",
+    "password": 12345,
+    "salary": 55000,
+    "age": 31
+  }
+
+###5. **Delete Employee**
+-**URL**:` /emp/delEmp/{id}`
+-**Method**: `DELETE`
+Request Parameter:
+id (The ID of the employee to be deleted)
+
+### Steps to Run the Application:
+
+1. **Clone the repository**:
+   Clone the project from GitHub to your local machine using the following command:
+   ```bash
+   git clone https://github.com/anushasekhar03/Employee-Management-System.git
+
