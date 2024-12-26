@@ -1,10 +1,10 @@
 # Employee Management System
 
 ## Description
-The **Employee Management System** is a web application built using **Spring Boot** that allows users to perform CRUD (Create, Read, Update, Delete) operations on employee records. It uses **MySQL** as the database for storing employee details. This system is designed to provide an easy-to-use interface to manage employee data including personal details like name, salary, age, department, etc. The project is ideal for anyone looking to understand the basics of Spring Boot and JPA with MySQL.
+The **Employee Management System** is a web application built using **Spring Boot** that allows users to perform CRUD (Create, Read, Update, Delete) operations on employee records. It uses **MySQL** as the database for storing employee details. This system is designed to provide an easy-to-use interface to manage employee data including personal details like name, password, salary, age, etc. The project is ideal for anyone looking to understand the basics of Spring Boot and JPA with MySQL.
 
 ### Key Features:
-- **Add Employees**: Create new employee records with details like name, salary, age, and department.
+- **Add Employees**: Create new employee records with details like name, password, salary, age.
 - **View Employees**: Retrieve details of all employees or individual employee records by ID.
 - **Update Employee Data**: Modify employee information such as salary, age, or department.
 - **Delete Employees**: Remove employee records from the database.
