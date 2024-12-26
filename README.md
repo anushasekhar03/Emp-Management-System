@@ -52,7 +52,6 @@ The **Employee Management System** is a web application built using **Spring Boo
     "salary": 60000,
     "age": 25
   }
-}
 
 ### 3. **Get Employee By ID**
 - **URL**: `/emp/employee/{id}`
@@ -86,6 +85,14 @@ The **Employee Management System** is a web application built using **Spring Boo
 -**Method**: `DELETE`
 Request Parameter:
 id (The ID of the employee to be deleted)
+
+###Test the API using Postman:
+Open Postman and test the API endpoints mentioned above. For example:
+Create an Employee: POST http://localhost:8080/emp/createEmp
+Get All Employees: GET http://localhost:8080/emp/employees
+Get Employee by ID: GET http://localhost:8080/emp/employee/{id}
+Update an Employee: PUT http://localhost:8080/emp/updateEmp
+Delete an Employee: DELETE http://localhost:8080/emp/delEmp/{id}
 
 ### Steps to Run the Application:
 
