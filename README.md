@@ -38,6 +38,7 @@ The **Employee Management System** is a web application built using **Spring Boo
 -**Method**:` GET`
 -**Response Body**:
 ````json
+[
   {
     "id": 1,
     "name": "John Doe",
@@ -52,6 +53,7 @@ The **Employee Management System** is a web application built using **Spring Boo
     "salary": 60000,
     "age": 25
   }
+]
 
 ### 3. **Get Employee By ID**
 - **URL**: `/emp/employee/{id}`
